@@ -1,0 +1,51 @@
+<!doctype html><html lang="ru"><head><title>Адреса SABBIA</title><meta name="description" content="Адреса кофеен SABBIA в Москве и маршруты до каждой точки."><meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#1f130e">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css"></head>
+<body data-page="locations">
+<div class="loader" aria-hidden="true"><div class="loader-mark">SABBIA</div><div class="loader-bar"><span></span></div></div>
+<div class="sand-layer" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div><div class="cursor-ring" aria-hidden="true"></div>
+<header class="topbar" data-topbar>
+  <a class="brand" href="index.html" aria-label="SABBIA на главную"><span class="brand-word">SABBIA</span><small>кофе • чай • сладости</small></a>
+  <nav class="nav" data-nav>
+    <a href="index.html" data-page="home">Главная</a>
+    <a href="menu.html" data-page="menu">Меню</a>
+    <a href="about.html" data-page="about">О нас</a>
+    <a href="locations.html" data-page="locations">Адреса</a>
+    <a href="contacts.html" data-page="contacts">Контакты</a>
+  </nav>
+  <div class="top-actions">
+    <button class="theme-toggle" type="button" aria-label="Сменить тему">☾</button>
+    <button class="burger" type="button" aria-label="Открыть меню"><span></span><span></span></button>
+  </div>
+</header>
+<main>
+  <section class="page-hero compact"><p class="eyebrow reveal">4 кофейни в Москве</p><h1 class="brand-word reveal">Кофейни SABBIA</h1><p class="page-lead reveal">Нажимай на карточку адреса: карта переключится на выбранную кофейню, а кнопка построит маршрут.</p></section>
+  <section class="section locations-layout">
+    <div class="places" data-places><article class="place-card reveal" data-map="https://yandex.ru/map-widget/v1/?text=Москва%2C%20Рождественский%20бульвар%201&z=16" data-index="0"><div class="place-num">01</div><div><h3>Рождественский бульвар, д. 1</h3><p>1 этаж</p><span class="click-badge">Кликабельно</span></div><a class="route-link" target="_blank" rel="noopener" href="https://yandex.ru/maps/?text=Москва%2C%20Рождественский%20бульвар%201">Построить маршрут</a></article>
+<article class="place-card reveal" data-map="https://yandex.ru/map-widget/v1/?text=Москва%2C%20Площадь%20Киевского%20Вокзала%202%20Европейский&z=16" data-index="1"><div class="place-num">02</div><div><h3>Площадь Киевского Вокзала, 2</h3><p>4 этаж ТРЦ «Европейский»</p><span class="click-badge">Кликабельно</span></div><a class="route-link" target="_blank" rel="noopener" href="https://yandex.ru/maps/?text=Москва%2C%20Площадь%20Киевского%20Вокзала%202%20Европейский">Построить маршрут</a></article>
+<article class="place-card reveal" data-map="https://yandex.ru/map-widget/v1/?text=Москва%2C%20Лесная%20улица%2020%20стр.%203%20Депо&z=16" data-index="2"><div class="place-num">03</div><div><h3>Лесная улица, 20 стр. 3</h3><p>Фудмолл — Депо</p><span class="click-badge">Кликабельно</span></div><a class="route-link" target="_blank" rel="noopener" href="https://yandex.ru/maps/?text=Москва%2C%20Лесная%20улица%2020%20стр.%203%20Депо">Построить маршрут</a></article>
+<article class="place-card reveal" data-map="https://yandex.ru/map-widget/v1/?text=Москва%2C%20Новорязанская%20улица%2023%20стр.%201%20Депо&z=16" data-index="3"><div class="place-num">04</div><div><h3>Новорязанская улица, 23 стр. 1</h3><p>Фудмолл — Депо</p><span class="click-badge">Кликабельно</span></div><a class="route-link" target="_blank" rel="noopener" href="https://yandex.ru/maps/?text=Москва%2C%20Новорязанская%20улица%2023%20стр.%201%20Депо">Построить маршрут</a></article></div>
+    <div class="map-panel reveal">
+      <div class="map-top"><span class="click-badge">Кликабельно</span><b>Интерактивная карта</b></div>
+      <iframe title="Карта SABBIA" data-map-frame src="https://yandex.ru/map-widget/v1/?text=Москва%2C%20Рождественский%20бульвар%201&z=16" loading="lazy"></iframe>
+      <div class="map-note">Выберите адрес слева или откройте маршрут в Яндекс Картах.</div>
+    </div>
+  </section>
+</main>
+<footer class="footer reveal">
+  <div>
+    <a class="footer-brand brand-word" href="index.html">SABBIA</a>
+    <p>Кофе, чай и сладости в тёплой песочной эстетике.</p>
+  </div>
+  <div class="footer-time"><b>График</b><span>Пн–Чт: 10:00–23:00</span><span>Пт–Сб: 10:00–00:00</span><span>Вс: 10:00–23:00</span></div>
+  <div class="footer-links"><a href="menu.html">Меню</a><a href="locations.html">Адреса</a><a href="policy.html">Политика</a></div>
+</footer>
+<div class="lightbox" data-lightbox><button aria-label="Закрыть">×</button><img alt=""></div>
+<script src="assets/script.js"></script>
+</body></html>
